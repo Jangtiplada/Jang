@@ -1,0 +1,4 @@
+Number = int(input("แม่สูตรคูณ"))
+for i in range(1, 13):
+       print(Number,"*" ,i,"=",Number*i)
+print("------------------------")
