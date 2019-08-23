@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-08-03 02:51:12 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOC0wMzswMjo0MzoyMSBQTTsyNzUx"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOC0wMzswMjo1MToxMiBQTTsxOzI4NTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="10"/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <assign variable="b" expression="2"/>
+            <declare name="c" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="a+b"/>
+            <output expression="c" newline="True"/>
+            <declare name="d" type="Integer" array="False" size=""/>
+            <assign variable="d" expression="a-b"/>
+            <output expression="d" newline="True"/>
+            <declare name="e" type="Integer" array="False" size=""/>
+            <assign variable="e" expression="a*b"/>
+            <output expression="e" newline="True"/>
+            <declare name="f" type="Real" array="False" size=""/>
+            <assign variable="f" expression="a/b"/>
+            <output expression="f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
