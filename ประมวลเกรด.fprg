@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-08-03 04:00:46 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOC0wMzswMjo1NToxMyBQTTsyNzU1"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOC0wMzswNDowMDo0NiBQTTsxOzI4NjE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="username" type="String" array="False" size=""/>
+            <input variable="username"/>
+            <declare name="password" type="Integer" array="False" size=""/>
+            <input variable="password"/>
+            <declare name="Score" type="Integer" array="False" size=""/>
+            <assign variable="score" expression="100"/>
+            <if expression="username == &quot;Jang&quot;">
+                <then>
+                    <if expression="password == 2543">
+                        <then>
+                            <input variable="Score"/>
+                            <if expression="score &gt;= 80">
+                                <then>
+                                    <output expression="&quot;A&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="score &gt;= 75">
+                                        <then>
+                                            <output expression="&quot;B+&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="score &gt;= 70">
+                                                <then>
+                                                    <output expression="&quot;B&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="score &gt;= 65">
+                                                        <then>
+                                                            <output expression="&quot;C+&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="score &gt;= 60">
+                                                                <then>
+                                                                    <output expression="&quot;C&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="score &gt;= 55">
+                                                                        <then>
+                                                                            <output expression="&quot;D+&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else>
+                                                                            <if expression="score &gt;= 50">
+                                                                                <then>
+                                                                                    <output expression="&quot;D&quot;" newline="True"/>
+                                                                                </then>
+                                                                                <else>
+                                                                                    <if expression="score &lt; 49">
+                                                                                        <then>
+                                                                                            <output expression="&quot;F&quot;" newline="True"/>
+                                                                                        </then>
+                                                                                        <else>
+                                                                                            <output expression="&quot;error&quot;" newline="True"/>
+                                                                                        </else>
+                                                                                    </if>
+                                                                                </else>
+                                                                            </if>
+                                                                        </else>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <output expression="&quot;error&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;error&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
