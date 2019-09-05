@@ -12,7 +12,7 @@ timeH = (OutH - InH)
 timeM = (OutM - InM)
 MixH = (timeH * 10)
 
-if  timeH >= 6 :
+if  timeH >= 6 and time M >= 1 :
     print("200")
 
 if  15 <= timeM  <= 59   :
