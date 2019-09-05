@@ -5,7 +5,7 @@ M,BE= {int(e) for e in input().split()}
 
 if 1 <= M and M <=12:
     if M == 2  :
-        if (BE-543)/4 == :
+        if (BE-543)/4 == 501 :
             print("29")
         else:
             print("28")
