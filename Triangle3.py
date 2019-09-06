@@ -1,13 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[25]:
-
-
-
 max = 0
 i = 3
 sum = 0
+angle = int(input("enter angle :"))
 for i in range(i):
     if angle > max:
         max = angle
@@ -20,14 +14,6 @@ print("hypotenuse", max)
     
     
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
