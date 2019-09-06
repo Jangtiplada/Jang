@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[8]:
-
-
 mm,dd,yyyy = (str(e) for e in input().split())
 if mm == "01" :
     print(dd, "JAN", yyyy)
@@ -33,7 +27,7 @@ else:
     print("ERROR")
 
 
-# In[ ]:
+
 
 
 
