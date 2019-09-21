@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-09-21 11:57:35 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTsxMTo1MjoyNiBQTTsyNzU3"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTsxMTo1NzozNSBQTTsxOzI4NzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="sum" type="Real" array="False" size=""/>
+            <assign variable="sum" expression="0.0"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="0"/>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter number :&quot;" newline="True"/>
+            <input variable="number"/>
+            <while expression="number &gt; -1">
+                <assign variable="sum" expression="sum + number"/>
+                <assign variable="n" expression="n + 1"/>
+                <output expression="&quot;Enter number :&quot;" newline="True"/>
+                <input variable="number"/>
+            </while>
+            <declare name="avg" type="Real" array="False" size=""/>
+            <assign variable="avg" expression="sum / n"/>
+            <output expression="&quot; Avg = &quot;" newline="True"/>
+            <output expression="avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
