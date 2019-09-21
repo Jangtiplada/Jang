@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-09-21 11:21:29 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTsxMToxMzo1NiBQTTsyNzU3"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTsxMToyMToyOSBQTTsyOzI4NjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="10"/>
+            <declare name="count" type="Real" array="False" size=""/>
+            <assign variable="count" expression="0.0"/>
+            <declare name="i" type="Real" array="False" size=""/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <declare name="number" type="Real" array="False" size=""/>
+                <output expression="&quot; Number : &quot;" newline="True"/>
+                <input variable="number"/>
+                <assign variable="count" expression="count + number"/>
+            </for>
+            <declare name="avg" type="Real" array="False" size=""/>
+            <assign variable="avg" expression="count / n"/>
+            <output expression="&quot; &#3588;&#3656;&#3634;&#3648;&#3593;&#3621;&#3637;&#3656;&#3618;    = &quot;" newline="True"/>
+            <output expression="avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
