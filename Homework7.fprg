@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-09-21 11:40:20 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTsxMTozNDoyMSBQTTsyNzUy"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTsxMTo0MDoyMCBQTTsxOzI4NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="max" type="Integer" array="False" size=""/>
+            <assign variable="max" expression="0"/>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <output expression="&quot; Number : &quot;" newline="True"/>
+            <input variable="number"/>
+            <while expression="number &gt; 0">
+                <if expression="number &gt; max">
+                    <then>
+                        <assign variable="max" expression="number"/>
+                    </then>
+                    <else/>
+                </if>
+                <output expression="&quot; Number : &quot;" newline="True"/>
+                <input variable="number"/>
+            </while>
+            <output expression="&quot; &#3592;&#3635;&#3609;&#3623;&#3609;&#3607;&#3637;&#3656;&#3617;&#3637;&#3588;&#3656;&#3634;&#3617;&#3634;&#3585;&#3607;&#3637;&#3656;&#3626;&#3640;&#3604;  &quot;" newline="True"/>
+            <output expression="max" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
