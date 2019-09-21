@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-09-21 09:53:06 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTswOTo0MDoyNiBQTTsyNzYx"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTswOTo1MzowNiBQTTsxOzI4NzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Number" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#3649;&#3617;&#3656;&#3626;&#3641;&#3605;&#3619;&#3588;&#3641;&#3603; : &quot;" newline="True"/>
+            <input variable="Number"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="12" direction="inc" step="1">
+                <output expression="Number" newline="True"/>
+                <output expression="&quot;*&quot;" newline="True"/>
+                <output expression="i" newline="True"/>
+                <output expression="&quot;=&quot;" newline="True"/>
+                <output expression="Number*i" newline="True"/>
+                <output expression="&quot;-------&quot;" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
