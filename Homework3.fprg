@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-09-21 10:45:17 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTsxMDo0MTo1MyBQTTsyNzU0"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTsxMDo0NToxNyBQTTsxOzI4NjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;&#3594;&#3639;&#3656;&#3629;-&#3609;&#3634;&#3617;&#3626;&#3585;&#3640;&#3621; :&quot;" newline="True"/>
+            <declare name="name" type="String" array="False" size=""/>
+            <input variable="name"/>
+            <declare name="surname" type="String" array="False" size=""/>
+            <input variable="surname"/>
+            <output expression="&quot;&#3594;&#3639;&#3656;&#3629; = &quot;" newline="True"/>
+            <output expression="len(name)" newline="True"/>
+            <output expression="&quot;&#3609;&#3634;&#3617;&#3626;&#3585;&#3640;&#3621; =  &quot;" newline="True"/>
+            <output expression="len(surname)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
