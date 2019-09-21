@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-09-21 11:48:29 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTsxMTo0NDoxOCBQTTsyNzU5"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTsxMTo0ODoyOSBQTTsxOzI4NzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <assign variable="n" expression="10"/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <assign variable="total" expression="0.0"/>
+            <declare name="i" type="Real" array="False" size=""/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <declare name="number" type="Real" array="False" size=""/>
+                <output expression="&quot;Enter number : &quot;" newline="True"/>
+                <input variable="number"/>
+                <assign variable="total" expression="total + number"/>
+            </for>
+            <output expression="total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
