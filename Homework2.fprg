@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-09-21 10:33:10 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTsxMDoyOTowNCBQTTsyNzU2"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTsxMDozMzoxMCBQTTsxOzI4NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="present" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#3611;&#3637;  &#3614;.&#3624;. &#3611;&#3633;&#3592;&#3592;&#3640;&#3610;&#3633;&#3609; :&quot;" newline="True"/>
+            <input variable="present"/>
+            <declare name="past" type="Integer" array="False" size=""/>
+            <output expression="&quot;&#3611;&#3637; &#3614;.&#3624;. &#3648;&#3585;&#3636;&#3604;  :&quot;" newline="True"/>
+            <input variable="past"/>
+            <declare name="age" type="Integer" array="False" size=""/>
+            <assign variable="age" expression="present- past"/>
+            <output expression="&quot;&#3611;&#3633;&#3592;&#3592;&#3640;&#3610;&#3633;&#3609;&#3629;&#3634;&#3618;&#3640; &quot;" newline="True"/>
+            <output expression="age" newline="True"/>
+            <output expression="&quot;&#3611;&#3637;&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
