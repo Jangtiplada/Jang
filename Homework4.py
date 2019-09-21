@@ -17,4 +17,4 @@ elif n2>n1 and n2>n3:
 elif n3>n1 and n3>n2:
     print(n3)
 else:
-    print("เจอตัวเลขที่มีค่าเท่ากัน ")
+    print("พบตัวเลขมีค่าเท่ากัน ")
