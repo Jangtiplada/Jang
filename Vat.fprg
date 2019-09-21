@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2562-09-21 09:22:13 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTswOTowNToxMyBQTTsyNzU4"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtMTQ3TFZTRko7MjU2Mi0wOS0yMTswOToyMjoxMyBQTTsxOzI4NjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="m" type="Real" array="False" size=""/>
+            <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3592;&#3635;&#3609;&#3623;&#3609;&#3648;&#3591;&#3636;&#3609;&#3619;&#3634;&#3618;&#3652;&#3604;&#3657;&#3605;&#3656;&#3629;&#3611;&#3637; : &quot;" newline="True"/>
+            <input variable="m"/>
+            <declare name="c" type="Real" array="False" size=""/>
+            <assign variable="c" expression="m * 0.4"/>
+            <if expression="c &gt; 60001">
+                <then>
+                    <declare name="p" type="Real" array="False" size=""/>
+                    <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3592;&#3635;&#3609;&#3623;&#3609;&#3648;&#3591;&#3636;&#3609;&#3621;&#3604;&#3627;&#3618;&#3656;&#3629;&#3609;&#3626;&#3656;&#3623;&#3609;&#3605;&#3633;&#3623; : &quot;" newline="True"/>
+                    <input variable="p"/>
+                    <declare name="s" type="Real" array="False" size=""/>
+                    <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3592;&#3635;&#3609;&#3623;&#3609;&#3648;&#3591;&#3636;&#3609;&#3621;&#3604;&#3627;&#3618;&#3656;&#3629;&#3609;&#3611;&#3619;&#3632;&#3585;&#3633;&#3609;&#3626;&#3633;&#3591;&#3588;&#3617; : &quot;" newline="True"/>
+                    <input variable="s"/>
+                    <declare name="k" type="Real" array="False" size=""/>
+                    <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3592;&#3635;&#3609;&#3623;&#3609;&#3648;&#3591;&#3636;&#3609;&#3621;&#3604;&#3627;&#3618;&#3656;&#3629;&#3609;&#3605;&#3656;&#3634;&#3626;&#3636;&#3609;&#3588;&#3657;&#3634;&#3649;&#3621;&#3632;&#3610;&#3619;&#3636;&#3585;&#3634;&#3619; : &quot;" newline="True"/>
+                    <input variable="k"/>
+                    <declare name="h" type="Real" array="False" size=""/>
+                    <output expression="&quot;&#3585;&#3619;&#3629;&#3585;&#3592;&#3635;&#3609;&#3623;&#3609;&#3648;&#3591;&#3636;&#3609;&#3607;&#3637;&#3656;&#3594;&#3656;&#3623;&#3618;&#3621;&#3604;&#3627;&#3618;&#3656;&#3629;&#3609;&#3594;&#3609;&#3636;&#3604;&#3629;&#3639;&#3656;&#3609;&#3654; : &quot;" newline="True"/>
+                    <input variable="h"/>
+                    <if expression="m &gt;= 150001">
+                        <then>
+                            <declare name="d" type="Real" array="False" size=""/>
+                            <declare name="a" type="Real" array="False" size=""/>
+                            <declare name="t" type="Real" array="False" size=""/>
+                            <assign variable="d" expression="p + s + k + h"/>
+                            <assign variable="a" expression="m - (c+d)"/>
+                            <assign variable="t" expression="a * 0.07"/>
+                            <output expression="&quot;&#3592;&#3635;&#3609;&#3623;&#3609;&#3648;&#3591;&#3636;&#3609;&#3607;&#3637;&#3656;&#3605;&#3657;&#3629;&#3591;&#3648;&#3626;&#3637;&#3618;&#3616;&#3634;&#3625;&#3637;&quot;" newline="True"/>
+                            <output expression="t" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;&#3618;&#3585;&#3648;&#3623;&#3657;&#3609;&#3616;&#3634;&#3625;&#3637;&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
